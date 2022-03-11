@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.banner{
+    height: 350px; 
+    width: 350px;
+    background-image: linear-gradient(to right, red , yellow);
+    border: 5px solid maroon;
+    max-width: 100%;
+}
+
+img{
+    object-fit: contain;
+}
+
+#logo{
+    position: relative;
+    top: 10px;
+}
+
+#svg{
+    position: relative;
+    max-width: 390px;
+    top: -6px;
+    right: -5px;
+}
+
+
